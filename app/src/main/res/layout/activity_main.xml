@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/stripes"
+    android:gravity="bottom"
+    >
+
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="0dp"
+        android:hint="Type Your Message Here: "
+        android:textColorHint="#817f7f"
+        android:gravity="top"
+        android:layout_margin="25dp"
+        />
+
+    <ImageView
+        android:id="@+id/add_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/addimage"/>
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView"
+        />
+
+
+    <EditText
+        android:id="@+id/reciever_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Receivers Number"
+        android:textColorHint="#817f7f"
+        android:inputType="phone"
+        android:layout_margin="25dp"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/day_to_Send"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"
+        android:layout_margin="25dp"
+        android:hint="Date To Be Sent"
+        android:textColorHint="#817f7f"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Submit"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+
+        />
+
+
+</LinearLayout>
